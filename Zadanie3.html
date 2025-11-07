@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie_1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <p>Akapit_1</p>
+    <p class="roz">Akapit_2</p>
+    <p>Akapit_3</p>
+
+    <h1 id="Hed1">Nagłówek_1</h1>
+    <h2 class="roz">Nagłówek_2</h2>
+
+    <ul>
+        <li>Lista_1</li>
+        <li class="roz">Lista_2</li>
+    </ul>
+</body>
+<script>
+    $(document).ready(function(){
+
+        $("p").css("color","blue");
+
+        $("#Hed1").css("color","red");
+
+        $(".roz").css("font-size","10px")
+
+    })
+</script>
+</html>
